@@ -25,5 +25,11 @@ while (str[i]  >= '0' && str[i] <= '9')
       resultado = resultado * 10 + (str[i] - '0');
       i++;
   }
-  return ((int) (resultado * sinal));
+  return (resultado * sinal);
+}
+
+int  main(void)
+{
+  printf("%d", ft_atoi(---+--+1234ab567"));
+  return (0);
 }
