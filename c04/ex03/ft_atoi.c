@@ -10,7 +10,7 @@ int  ft_atoi(char *str)
   sinal = 1;
   resultado = 0;
 
-  while((str[i]  == '') || (str[i] >= 9 && str[i]<= 13)
+  while((str[i]  == '') || (str[i] >= 9 && str[i]<= 13))
   i++;
   while((str[i]  == '+') || (str[i] == '-'))
   i++;
